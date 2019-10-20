@@ -1,0 +1,30 @@
+Let's add some items into the list! :-)
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+clear()!
+[List is empty]
+clear() again! :-)
+[List is empty]
+Let's add some items into the list again! :-)
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+Let's check a length() function! :-)
+list.length() = 12
+list.clear()
+list.length() = 0
+===== Let's check the indexOf function!
+Add some items into the list first! :-)
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+Looking for number: 2
+indexOf(2): 2
+---
+Looking for number: 100
+indexOf(100): -1
+---
+Looking for number: -4
+indexOf(-4): -1
+---
+Looking for number: 11
+indexOf(11): 11
+---
+Looking for number: 0
+indexOf(0): 0
+---
