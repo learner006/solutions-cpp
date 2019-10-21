@@ -22,6 +22,7 @@ private:
 	TDLItem *m_head, *m_tail;
 public:
 	TDoublyLinkedList();
+	~TDoublyLinkedList();    
 	TDLItem* head() const;
 	TDLItem* tail() const;
 	TDLItem* append(const TDLData& p_Data);

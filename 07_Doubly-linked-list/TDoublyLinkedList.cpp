@@ -15,6 +15,12 @@ TDoublyLinkedList::TDoublyLinkedList()
     m_head = m_tail = 0;
 }
 //---------------------------------------------------------------------------
+TDoublyLinkedList::~TDoublyLinkedList()
+{
+    clear();
+}
+//---------------------------------------------------------------------------
+
 TDLItem* TDoublyLinkedList::head() const
 {
     TDLItem* out_Item = 0;
